@@ -21,7 +21,7 @@ AppAsset::register($this);
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <!-- end: Mobile Specific -->
-        <?= Html::csrfMetaTags() ?>
+        <?php echo Html::csrfMetaTags() ?>
         <?php $this->head() ?>
 
         <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -107,7 +107,6 @@ AppAsset::register($this);
 
     </div>
     <!-- end: first top navigation bar -->
-
 
     <!-- start: second top navigation bar -->
     <div id="leftbar">
